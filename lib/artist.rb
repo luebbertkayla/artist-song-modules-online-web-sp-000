@@ -5,6 +5,7 @@ require_relative './concerns/paramable.rb'
 class Artist
   
   extend Memorable::ClassMethods
+  
   include Paramable::InstanceMethods
   include Memorable::InstanceMethods
   
