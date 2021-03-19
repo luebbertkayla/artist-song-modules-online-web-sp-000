@@ -1,6 +1,6 @@
 require 'pry'
-require_relative './concerns/memorable.rb'
-require_relative './concerns/paramble.rb'
+#require_relative './concerns/memorable.rb'
+#require_relative './concerns/paramable.rb'
 
 class Song
   
