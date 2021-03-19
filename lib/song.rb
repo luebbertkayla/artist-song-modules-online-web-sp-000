@@ -5,7 +5,7 @@ require_relative './concerns/paramble.rb'
 class Song
   
   extend Memorable::ClassMethods 
-  include Memorable::InstanceMethods
+  include Paramble::InstanceMethods
   
   attr_accessor :name
   attr_reader :artist
